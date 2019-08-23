@@ -15,6 +15,21 @@
 
 ## 4.删除默认的 python link 文件，重新建立链接关系
 ```
-sudo rm  /usr/bin/python
+sudo mv  /usr/bin/python /usr/bin/python-old
 sudo  ln  -s  /usr/bin/python3.5    /usr/bin/python 
 ```
+---
+# 卸载
+## 1. 卸载
+```
+sudo apt-get remove python3
+```
+
+## 2. 卸载依赖
+```
+```
+
+## 3. 清除
+```
+sudo apt-get purge python3
+
