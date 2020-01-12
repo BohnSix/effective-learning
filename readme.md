@@ -1,3 +1,7 @@
+# CSDN 广告太多，故迁移至此
+* 原博客地址：https://blog.csdn.net/BohnLee
+
+
 # Effective Learning
 
 - Mooc学习经典案例：一年学完MIT计算机专业33门课程  https://www.guokr.com/blog/745251/
