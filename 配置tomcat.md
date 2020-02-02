@@ -9,4 +9,4 @@
 * 看log。
 * 在cmd中进入tomcat的bin目录，运行startup.bat(linux用户运行*.sh)。看报错信息。
 # 乱码设置
-* remind unsolved
+* 参见`https://www.cnblogs.com/zeussbook/p/10535120.html`
