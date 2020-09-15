@@ -1,4 +1,4 @@
 git add .
-git commit -m "虽然今天的每日一题是7.14的每日一题，但我还是有点手生。也看了一下之前的提交，也没有做到 bug-free。"
+git commit -m "看大佬的题解，理解得有些吃力。写上备注和自己的理解。还是太菜了"
 
 git push origin master
