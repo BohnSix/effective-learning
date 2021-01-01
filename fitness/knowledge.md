@@ -1,0 +1,1 @@
+* RM:Repetition Maximum，简单理解为：最大力竭反复数
