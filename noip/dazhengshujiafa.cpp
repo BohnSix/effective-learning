@@ -9,20 +9,31 @@ char as[2000], bs[2000];
 int main()
 {
     // 获取输入
-    int al, bl, cl, x = 0;
+    int al, bl;
     gets(as);
     gets(bs);
+
     // 将输入倒序
     al = strlen(as);
     bl = strlen(bs);
-    for (int i = al - 1; i >= 0; i--)
-        a[i] = as[i] - '0';
-    for (int i = al - 1; i >= 0; i--)
-        cout << a[i] << ' ';
-    for (int i = bl - 1; i >= 0; i--)
-        b[i] = bs[i] - '0';
-    cout << al << '\n' << a[al-1] << endl;
-    system("pause");
+    for (int i = 1; i <= al; i++)
+        a[i] = as[al - i] - '0';
+    for (int i = 1; i <= bl; i++)
+        b[i] = bs[bl - i] - '0';
+
+    // 现在 a 和 b 里面装的是 as 和 bs 的倒序数组
+    int index = 1, x = 0;
+    while (index <= al || index <= bl)
+    {
+        c[index] = a[index] + b[index] + x;
+        c[index] = c[index] % 10;
+        x = c[index] / 10;
+        index++;
+    }
+    c[index] = x;
+    // 输出
+    for (int j = index-1; j > 0;j--)
+        cout << c[j];
+    cout << endl;
     return 0;
 }
-
