@@ -34,13 +34,14 @@
         "activityBar.foreground": "#39C5BB" // 自定义颜色；想定义其它位置参见官方文档
     },
     "workbench.settings.useSplitJSON": true, // 恢复手动编辑时的两列设置
-    "window.zoomLevel": 0.2, // 整体放大
+    "window.zoomLevel": 0, // 整体放大
     //"git.enabled": false, // 如果你不用git，可以考虑关闭它
     //"git.ignoreMissingGitWarning": true, // 同上
     "[c]": {
         "files.encoding": "gbk" // 这样的格式可以对指定后缀的文件应用设置，如果你实在想用gbk，就这样设置吧。cpp同理。
     },
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp"
     },
 }
