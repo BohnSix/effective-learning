@@ -1,6 +1,3 @@
-git add .
-git commit -m "update 4.6。快慢指针 "
+git commit -am "update on 4.16"
 
 git push origin master
-
-
